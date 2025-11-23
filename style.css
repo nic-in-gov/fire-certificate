@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background: black;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fffaf0; /* Government off-white */
+  padding: 30px;
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.4);
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 5px;
+}
+
+.satyamev {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(255, 80, 80);   /* Light RED headline */
+  margin: 8px 0;
+}
+
+h2 {
+  color: rgb(60, 60, 60);
+  margin: 5px 0 20px;
+}
+
+.detail-box {
+  background: #ffffff;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.label {
+  font-weight: bold;
+  color: rgb(0, 0, 150); /* Govt blue */
+}
+
+.value {
+  color: rgb(0, 128, 0); /* Govt green */
+  font-weight: 600;
+}
+
+p {
+  font-size: 17px;
+  margin: 8px 0;
+}
