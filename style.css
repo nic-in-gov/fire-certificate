@@ -9,7 +9,7 @@ body {
   width: 90%;
   max-width: 780px;
   margin: 40px auto;
-  background: #fffaf0; /* govt off-white */
+  background: #fffaf0;
   padding: 25px;
   border: 3px solid rgb(255, 0, 0);
   box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
@@ -25,20 +25,25 @@ body {
   margin-bottom: 20px;
 }
 
+/* Force Logo to be Small */
 .logo {
-  width: 65px;
-  margin-bottom: 5px;
+  width: 60px !important;      /* FORCE very small */
+  height: auto !important;
+  display: block;
+  margin: 0 auto 2px auto !important; /* satyamev ke just upar */
 }
 
+/* satyamev jayate */
 .satyamev {
   font-weight: bold;
   font-size: 14px;
-  margin-bottom: 5px;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   margin: 5px 0;
-  color: rgb(255, 80, 80); /* Light red */
+  color: rgb(255, 80, 80);
   font-size: 22px;
 }
 
@@ -48,7 +53,7 @@ h2 {
   font-size: 18px;
 }
 
-/* Table Style */
+/* TABLE */
 .info-table {
   width: 100%;
   border-collapse: collapse;
@@ -62,7 +67,7 @@ h2 {
   padding: 10px;
   text-align: left;
   font-size: 16px;
-  color: rgb(0, 0, 150); /* govt blue */
+  color: rgb(0, 0, 150);
   border: 1px solid black;
 }
 
@@ -70,6 +75,6 @@ h2 {
   padding: 10px;
   font-size: 16px;
   font-weight: 600;
-  color: rgb(0, 128, 0); /* govt green */
+  color: rgb(0, 128, 0);
   border: 1px solid black;
 }
