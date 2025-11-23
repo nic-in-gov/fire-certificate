@@ -4,80 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Diploma Marksheet</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: black;
-    }
 
-    .container {
-      background-color: #f9f9f9;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      color: rgb(0, 0, 0);
-    }
-
-    .center {
-      text-align: center;
-    }
-
-    .logo {
-      width: 80px;
-      margin-bottom: 5px;
-    }
-
-    .satyamev {
-      font-size: 14px;
-      font-weight: bold;
-    }
-
-    h1 {
-      color: rgb(0, 102, 204); /* Bright RGB blue */
-      margin: 0;
-    }
-
-    h2 {
-      color: rgb(50, 50, 50);
-      margin: 10px 0 20px;
-    }
-
-    .label {
-      font-weight: bold;
-      color: rgb(255, 0, 0); /* Red RGB */
-    }
-
-    .value {
-      color: rgb(0, 128, 0); /* Green RGB */
-    }
-
-    img.certificate {
-      width: 2000px;
-      max-width: none;
-      height: auto;
-      display: block;
-      margin: 40px auto;
-    }
-  </style>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <div class="container">
+
     <div class="center">
       <img src="india-logo.png.PNG" class="logo" alt="Ashoka Logo" />
       <div class="satyamev">सत्यमेव जयते</div>
+
       <h1>भारत सरकार / Government of India</h1>
       <h2>Diploma Marksheet / डिप्लोमा मार्कशीट</h2>
     </div>
 
-    <p><span class="label">Name:</span> <span class="value">Abhishek Kumar</span></p>
-    <p><span class="label">Father's Name:</span> <span class="value">Pramod Kumar</span></p>
-    <p><span class="label">Enrollment Number:</span> <span class="value">016321066011</span></p>
-    <p><span class="label">Registration Number:</span> <span class="value">001519662020</span></p>
-    <p><span class="label">Authorized Training Centre:</span> <span class="value">Techsafe Academy, Uttar Pradesh Fire Service Training Centre, code: 250001</span></p>
-    <p><span class="label">Course Code:</span> <span class="value">12423030</span></p>
-  </div>
+    <div class="detail-box">
+      <p><span class="label">Name:</span> <span class="value">Abhishek Kumar</span></p>
+      <p><span class="label">Father's Name:</span> <span class="value">Pramod Kumar</span></p>
+      <p><span class="label">Enrollment Number:</span> <span class="value">016321066011</span></p>
+      <p><span class="label">Registration Number:</span> <span class="value">001519662020</span></p>
+      <p><span class="label">Authorized Training Centre:</span> 
+         <span class="value">Techsafe Academy, Uttar Pradesh Fire Service Training Centre, Code: 250001</span></p>
+      <p><span class="label">Course Code:</span> <span class="value">12423030</span></p>
+    </div>
 
-  <img src="Fire diploma.jpg" class="certificate" alt="Diploma Certificate" />
+  </div>
 </body>
 </html>
