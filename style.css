@@ -1,62 +1,75 @@
 body {
-  margin: 0;
   background: black;
-  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
 }
 
-.container {
-  max-width: 800px;
+/* Main Certificate Box */
+.certificate-box {
+  width: 90%;
+  max-width: 780px;
   margin: 40px auto;
-  background: #fffaf0; /* Government off-white */
-  padding: 30px;
+  background: #fffaf0; /* govt off-white */
+  padding: 25px;
   border: 3px solid rgb(255, 0, 0);
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
   border-radius: 8px;
-  box-shadow: 0 0 15px rgba(255,0,0,0.4);
 }
 
+/* Header */
 .center {
   text-align: center;
 }
 
+.header-section {
+  margin-bottom: 20px;
+}
+
 .logo {
-  width: 80px;
+  width: 65px;
   margin-bottom: 5px;
 }
 
 .satyamev {
-  font-size: 15px;
   font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
 h1 {
-  color: rgb(255, 80, 80);   /* Light RED headline */
-  margin: 8px 0;
+  margin: 5px 0;
+  color: rgb(255, 80, 80); /* Light red */
+  font-size: 22px;
 }
 
 h2 {
-  color: rgb(60, 60, 60);
-  margin: 5px 0 20px;
+  margin: 0 0 15px;
+  color: rgb(70, 70, 70);
+  font-size: 18px;
 }
 
-.detail-box {
-  background: #ffffff;
+/* Table Style */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
   border: 2px solid black;
-  padding: 20px;
-  border-radius: 6px;
-  margin-top: 20px;
 }
 
-.label {
-  font-weight: bold;
-  color: rgb(0, 0, 150); /* Govt blue */
+.info-table th {
+  width: 40%;
+  background: rgb(230, 230, 230);
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: rgb(0, 0, 150); /* govt blue */
+  border: 1px solid black;
 }
 
-.value {
-  color: rgb(0, 128, 0); /* Govt green */
+.info-table td {
+  padding: 10px;
+  font-size: 16px;
   font-weight: 600;
-}
-
-p {
-  font-size: 17px;
-  margin: 8px 0;
+  color: rgb(0, 128, 0); /* govt green */
+  border: 1px solid black;
 }
